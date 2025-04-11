@@ -1,53 +1,53 @@
 # Discord Raid Bot
 
-Ce script Python est un bot Discord simple qui effectue une série d'actions sur un serveur Discord spécifié. Il est conçu pour automatiser des tâches telles que la suppression de canaux existants, la création de nouveaux canaux, l'envoi de messages dans ces canaux et le renommage du serveur. **Utilisez ce script de manière responsable et éthique. L'utilisation non autorisée contre des serveurs que vous ne possédez pas ou pour lesquels vous n'avez pas l'autorisation de modifier est strictement interdite et peut avoir de graves conséquences.**
+This Python script is a simple Discord bot that performs a series of actions on a specified Discord server. It's designed to automate tasks such as deleting existing channels, creating new channels, sending messages in those channels, and renaming the server. **Use this script responsibly and ethically. Unauthorized use against servers you do not own or have permission to modify is strictly prohibited and can have serious consequences.**
 
-## Fonctionnalités
+## Features
 
-* **Modification du serveur :**
-    * Renomme le serveur cible.
-    * Supprime tous les canaux texte existants.
-    * Crée un nombre spécifié de nouveaux canaux texte.
-    * Envoie un nombre spécifié de messages dans chaque canal créé.
-    * Renomme les canaux crées avec une mise en forme barrée.
-    * Réinitialise les noms des canaux en supprimant la mise en forme barrée.
-* **Entrée utilisateur :** Prend en compte les entrées de l'utilisateur pour le jeton du bot, l'ID du serveur, le nouveau nom du serveur, le nouveau nom du canal, le nombre de canaux et les messages par canal.
+* **Server Modification:**
+    * Renames the target server.
+    * Deletes all existing text channels.
+    * Creates a specified number of new text channels.
+    * Sends a specified number of messages in each created channel.
+    * Renames the created channels with strikethrough formatting.
+    * Resets the channel names by removing the strikethrough formatting.
+* **User Input:** Takes user inputs for the bot token, server ID, new server name, new channel name, number of channels, and messages per channel.
 
-## Prérequis
+## Prerequisites
 
 * Python 3.6+
-* `discord.py` (installez avec `pip install discord.py`)
-* Un jeton de bot Discord (obtenu sur le Portail des développeurs Discord).
-* L'ID du serveur Discord à modifier.
+* `discord.py` (install with `pip install discord.py`)
+* A Discord bot token (obtained from the Discord Developer Portal).
+* The ID of the Discord server to modify.
 
-## Utilisation
+## Usage
 
-1.  **Clonez le dépôt (si applicable) :**
+1.  **Clone the repository (if applicable):**
     ```bash
     git clone https://github.com/LK-GONNA11/Discord-Raid-Bot-
     ```
-2.  **Naviguez vers le répertoire du projet :**
+2.  **Navigate to the project directory:**
     ```bash
     cd Discord-Raid-Bot-
     ```
-    (Par exemple, `cd discord-raid-bot`)
-3.  **Exécutez le script Python :**
+    (e.g., `cd discord-raid-bot`)
+3.  **Run the Python script:**
     ```bash
     python main.py
     ```
-    (Ou `python3 main.py` si nécessaire)
-4.  **Entrez les informations :** Suivez les invites du script.
-5.  **Le bot effectue les actions :** Les opérations sont automatisées.
-6.  **Option de réinitialisation des canaux :** Choisissez de réinitialiser les noms des canaux à la fin.
+    (Or `python3 main.py` if necessary)
+4.  **Enter the information:** Follow the script's prompts.
+5.  **The bot performs the actions:** Operations are automated.
+6.  **Channel reset option:** Choose to reset the channel names at the end.
 
-## Notes importantes
+## Important Notes
 
-* **Sécurité du jeton :** Gardez votre jeton en sécurité.
-* **Permissions :** Assurez-vous que le bot a les permissions nécessaires.
-* **Limites de débit :** Discord a des limites de débit.
-* **Utilisation éthique :** Utilisez ce script de manière responsable.
-* **Dépendances :** Si vous rencontrez des erreurs de dépendances, assurez vous d'avoir installé le module discord.py.
+* **Token Security:** Keep your token safe.
+* **Permissions:** Ensure the bot has the necessary permissions.
+* **Rate Limits:** Discord has rate limits.
+* **Ethical Use:** Use this script responsibly.
+* **Dependencies:** If you encounter dependency errors, make sure you have installed the discord.py module.
 
-## Clause de non-responsabilité
+## Disclaimer
 
-Ce script est fourni à des fins éducatives. L'auteur n'est pas responsable de toute mauvaise utilisation.
+This script is provided for educational purposes. The author is not responsible for any misuse.
