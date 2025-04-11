@@ -24,11 +24,11 @@ Ce script Python est un bot Discord simple qui effectue une série d'actions sur
 
 1.  **Clonez le dépôt (si applicable) :**
     ```bash
-    git clone https://github.com/LK-GONNA11/Discord-Raid-Server
+    git clone https://github.com/LK-GONNA11/Discord-Raid-Bot-
     ```
 2.  **Naviguez vers le répertoire du projet :**
     ```bash
-    cd Discord-Raid-Server
+    cd Discord-Raid-Bot-
     ```
     (Par exemple, `cd discord-raid-bot`)
 3.  **Exécutez le script Python :**
